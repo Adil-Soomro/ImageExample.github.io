@@ -5,7 +5,7 @@ This project demonstrates an image change feature created using only HTML and CS
 
 ## Demo
 
-You can view a live demo of the project [here](#) (add the link if you deploy your project).
+You can view a live demo of the project [here] https://imageexample.netlify.app/ (add the link if you deploy your project).
 
 ## Features
 
@@ -18,8 +18,3 @@ You can view a live demo of the project [here](#) (add the link if you deploy yo
 - **HTML**
 - **CSS**
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
