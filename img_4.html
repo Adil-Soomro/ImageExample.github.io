@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: rgb(19, 19, 19);
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkgray;
+            height: 50px;
+        }
+
+        nav > div > a {
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            font-size: x-large;
+        }
+
+        .image {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 80vh;
+            object-fit: cover;
+        }
+
+        .btn {
+            position: absolute;
+            bottom: 50px;
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            background-color: rgb(24, 23, 23);
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            font-size: medium;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="./index.html">HOME</a>
+        </div>
+    </nav>
+    <div class="image">
+        <img src="/imgs/img_4.jpg" alt="">
+        <div class="btn">
+            <a href="./img_3.html"><button>Back</button></a>
+        </div>
+    </div>
+    <footer>
+        Created with &#10084; by Adil Soomro
+    </footer>
+</body>
+
+</html>

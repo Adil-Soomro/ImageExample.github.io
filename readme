@@ -1,0 +1,25 @@
+# Image Change Project
+
+This project demonstrates an image change feature created using only HTML and CSS. The project allows users to navigate through images with a simple, clean interface.
+
+
+## Demo
+
+You can view a live demo of the project [here](#) (add the link if you deploy your project).
+
+## Features
+
+- **Responsive Design**: Adapts to various screen sizes.
+- **Simple Navigation**: Users can navigate between images using "Back" and "Next" buttons.
+- **Pure HTML & CSS**: No JavaScript used, focusing on simplicity.
+
+## Technologies Used
+
+- **HTML**
+- **CSS**
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git

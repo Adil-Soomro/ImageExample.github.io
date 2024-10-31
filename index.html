@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: rgb(19, 19, 19);
+            margin: 0;
+            padding: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkgray;
+            height: 50px;
+        }
+        nav > div {
+            color: black;
+            font-weight: 600;
+            font-family: sans-serif;
+            font-size: x-large;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .image {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 60px 20px;
+            gap: 20px;
+        }
+        button {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgb(24, 23, 23);
+            color: white;
+            padding: 6px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: black;
+        }
+        a {
+            width: 45%;
+        }
+        footer {
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+        }
+        @media (max-width: 768px) {
+            
+            .image {
+                padding: 40px;
+            }
+            a {
+                width: 100%;
+            }
+        }
+        @media (max-width: 480px) {
+            nav {
+                height: 40px;
+            }
+            .image {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>Images Example</div>
+    </nav>
+    <div class="image">
+        <a href="./img_1.html"><img src="/imgs/img_1.jpg" alt="Image 1"></a>
+        <a href="./img_2.html"><img src="/imgs/img_2.jpg" alt="Image 2"></a>
+        <a href="./img_3.html"><img src="/imgs/img_3.jpg" alt="Image 3"></a>
+        <a href="./img_4.html"><img src="/imgs/img_4.jpg" alt="Image 4"></a>
+    </div>
+    <footer>Created with &#10084; by Adil Soomro</footer>
+</body>
+</html>
